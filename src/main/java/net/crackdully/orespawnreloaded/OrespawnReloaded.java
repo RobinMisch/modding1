@@ -1,6 +1,7 @@
 package net.crackdully.orespawnreloaded;
 
 import com.mojang.logging.LogUtils;
+import net.crackdully.orespawnreloaded.item.ModCreativeModeTabs;
 import net.crackdully.orespawnreloaded.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTab;
@@ -27,6 +28,7 @@ public class OrespawnReloaded
     public OrespawnReloaded()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
@@ -40,11 +42,7 @@ public class OrespawnReloaded
 
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS){
-            event.accept(ModItems.PIZZA);
-            event.accept(ModItems.BIGHAMMER);
-            event.accept(ModItems.AMETHYST);
-        }
+
     }
 
     @SubscribeEvent
