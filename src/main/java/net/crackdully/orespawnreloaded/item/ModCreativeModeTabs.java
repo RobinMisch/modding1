@@ -20,6 +20,11 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.AMETHYST.get());
                         pOutput.accept(ModItems.BIGHAMMER.get());
                         pOutput.accept(ModItems.PIZZA.get());
+                        pOutput.accept(ModItems.RUBYCHESTPLATE.get());
+                        pOutput.accept(ModItems.ACID.get());
+                        pOutput.accept(ModItems.AMETHYSTBOOTS.get());
+                        pOutput.accept(ModItems.AMETHYSTCHESTPLATE.get());
+
                     })
                     .build());
     public static void register(IEventBus eventBus) {
