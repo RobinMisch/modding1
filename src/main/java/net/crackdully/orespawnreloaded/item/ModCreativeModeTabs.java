@@ -24,6 +24,13 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.ACID.get());
                         pOutput.accept(ModItems.AMETHYSTBOOTS.get());
                         pOutput.accept(ModItems.AMETHYSTCHESTPLATE.get());
+                        pOutput.accept(ModItems.AMETHYSTHELMET.get());
+                        pOutput.accept(ModItems.AMETHYSTLEGGINGS.get());
+                        pOutput.accept(ModItems.AMETHYSTAXE.get());
+                        pOutput.accept(ModItems.AMETHYSTHOE.get());
+                        pOutput.accept(ModItems.AMETHYSTPICKAXE.get());
+                        pOutput.accept(ModItems.AMETHYSTSHOVEL.get());
+                        pOutput.accept(ModItems.AMETHYSTSWORD.get());
 
                     })
                     .build());

@@ -25,6 +25,20 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> AMETHYSTCHESTPLATE = ITEMS.register("amethystchestplate",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> AMETHYSTHELMET = ITEMS.register("amethysthelmet",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> AMETHYSTLEGGINGS = ITEMS.register("amethystleggings",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> AMETHYSTAXE = ITEMS.register("amethystaxe",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> AMETHYSTHOE = ITEMS.register("amethysthoe",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> AMETHYSTPICKAXE = ITEMS.register("amethystpickaxe",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> AMETHYSTSHOVEL = ITEMS.register("amethystshovel",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> AMETHYSTSWORD = ITEMS.register("amethystsword",
+            () -> new Item(new Item.Properties()));
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
