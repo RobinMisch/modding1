@@ -42,6 +42,7 @@ public class OrespawnReloaded
     {
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS){
             event.accept(ModItems.PIZZA);
+            event.accept(ModItems.BIGHAMMER);
         }
     }
 
